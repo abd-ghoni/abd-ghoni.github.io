@@ -1,0 +1,173 @@
+body {
+    background-image: url(../img/triangle-mosaic.png);
+}
+
+nav {
+     height: 410px;
+     width: 195px;
+     box-shadow: 2px 0 10px 2px  rgba(161, 135, 196, .75);
+     border-radius: 5px;
+     background-image: url(../img/triangle-mosaic.png);
+}
+
+hr {
+    position: relative;
+    width: 80%;
+    top: 28px;
+}
+
+marquee {
+    font-size: 30px;
+    color: dimgrey;
+}
+
+.profile {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    top: 20px;
+    left: 20px;
+    overflow: hidden;
+}
+
+.profile img {
+    width: 150px;
+    opacity: .9;
+}
+
+nav ul li, a {
+    position: relative;
+    display: inline-block;
+    left: -10px;
+    top: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 2px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+a{
+    padding: 4px;
+} 
+
+a:hover {
+    background-color: white;
+    color: rgb(161, 135, 196);
+}
+
+#main {
+    position: absolute;
+    top: 8px;
+    left: 230px;
+    width: 1100px;
+    height: 635px;
+    padding: 50px;
+    background-image: url(../img/bgimage.png);
+    box-shadow: 2px 0 10px 2px  rgba(161, 135, 196, .75);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: darkgray;
+    text-shadow: 2px 2px 8px rgba(153, 114, 114, 0.8);
+}
+
+.welcome {
+    text-align: center;
+    font-size: 80px;
+    font-family: serif;
+    color: darkgray;
+    text-shadow: 3px 3px 2px darkgray;
+}
+
+.garis_vertikal {
+    margin-left: 60px;
+    height: 150px;
+    width: 2px;
+}
+
+.about {
+    top: -1px;
+}
+
+.card {
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 500px;
+}
+
+.card2 img {
+    width: 400px;
+}
+
+.card2 {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    margin-right: 15px;
+    overflow: hidden;
+    object-position: center;
+}
+
+.cards {
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 300px;
+    height: 450px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 30px;
+    color: darkslateblue;
+}
+
+p {
+    line-height: 14px;
+}
+
+input {
+    width: 500px;
+    height: 20px;
+    padding: 4px;
+    margin: 4px;
+    box-sizing: content-box;
+    border-radius: 2px;
+}
+
+textarea {
+    width: 500px;
+    height: 50px;
+    padding: 4px;
+    margin: 4px;
+    box-sizing: content-box;
+    border-radius: 2px;
+}
+
+input[value="submit"] {
+    width: 500px;
+    height: 20px;
+    padding: 4px;
+    box-sizing: content-box;
+    background-color: orangered;
+    color: papayawhip;
+    cursor: pointer;
+    border-radius: 2px;
+}
